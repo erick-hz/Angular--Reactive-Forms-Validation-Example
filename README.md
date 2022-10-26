@@ -1,5 +1,4 @@
-![Code-Igniter](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
-#
+#![Code-Igniter](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
 This is a quick example of how to setup form validation in Angular 10 using Reactive Forms. The example is a simple registration form with pretty standard fields for title, first name, last name, date of birth, email, password, confirm password and an accept terms and conditions checkbox. All fields are required including the checkbox, the dob must be a valid date, the password field must have a min length of 6 and the email address must be in a valid format. There's also a custom MustMatch validator which is used to validate that the confirm password and password fields match.
 
 I've setup the form to validate on submit rather than as soon as each field is changed, this is implemented with a submitted property in the app component that is set to true when the form is submitted for the first time, and reset to false if the cancel button is clicked.
